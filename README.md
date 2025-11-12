@@ -27,7 +27,7 @@ Each record represents a student’s lifestyle profile:
 
 ---
 
-## ETL Process
+## Assignment Steps
 
 1. **Install and Import Required Libraries**
 
