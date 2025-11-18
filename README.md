@@ -59,8 +59,8 @@ Each record represents a student’s lifestyle profile:
    - Check and fix column data types.  
    - Detect and remove duplicates.
 
-9. **Load Data Back into PostgreSQL (pgAdmin)**
-   - Connect to PostgreSQL and upload the cleaned dataset as a new table.
+9. **Load Data into BigQuery**
+   - Establish a secure connection to Google BigQuery using service account credentials.
+   - Upload the cleaned and transformed dataset into a specified BigQuery dataset/table.
+   - Ensure the table is created automatically if it does not already exist.
 
-10. **Verification**
-    - Verify table creation and data integrity in pgAdmin.
